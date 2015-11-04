@@ -1,0 +1,107 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+*{
+padding:0;
+margin:0;
+}
+body {
+	 z-index:1;
+	}
+
+.head {
+	width:1920px;
+	}	
+	
+.logo {
+	margin-left:176px;
+	width:141px;
+	height:162px;
+	}
+
+.nav {
+	width:1404px;
+	height:84px;
+	background-image:url(../images/navbox.png);
+	background-repeat:repeat;
+	float:right;
+	margin-left:auto;
+	margin-right:5%;
+	margin-top:46px;
+	vertical-align:middle;
+	display:table-cell;
+	}
+.index{
+	font-family:"微软雅黑";
+	font-size:25px;
+	color:#ffffff;
+	line-height:84px;
+	margin-left:136px;
+	}
+.text {
+	font-family:"微软雅黑";
+	font-size:25px;
+	color:#ffffff;
+	line-height:84px;
+	margin-left:81px;
+}
+.text1 {
+	font-family:"微软雅黑";
+	font-size:25px;
+	color:#ffffff;
+	line-height:84px;
+	margin-left:31px;
+}
+.text2 {
+	font-family:"微软雅黑";
+	font-size:25px;
+	color:#01dfba;
+	line-height:84px;
+	margin-left:41px;
+}
+.middle {
+	background-image:url(../images/text-box.png);
+	width:1498px;
+	height:1354px;
+	margin-left: auto;
+	margin-right:auto;
+	z-index:1;
+	position:relative;
+	}
+.gengduo{
+	width:94px;
+	height:94px;
+	float:left;
+	text-align: center;
+	/*vertical-align: middle;*/
+	line-height: 120px;
+	margin-top:1220px;
+	margin-left:1212px;
+	background-color:#c4c4c4;
+}
+.renwu {
+	margin-left:60px;
+	position:absolute;
+	float:left;
+	margin-top:500px;
+	background-image:url(../images/renwu.png);
+	background-repeat:no-repeat;
+	width:540px;
+	height:1020px;
+	z-index:2;
+	}
+.foot{
+	margin-top:165px;
+	width:100%;
+	height:320px;
+	background-color:black;
+	position:relative;
+	}
+.foottext {
+	font-family:"微软雅黑";
+	font-size:20px;
+	color:#c4c4c4;
+	
+	
+}
+	
